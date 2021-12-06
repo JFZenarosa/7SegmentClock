@@ -1,0 +1,10 @@
+C:\Users\RJ\source\repos\7SegmentClock\bin\Debug\7SegmentClock.exe.config
+C:\Users\RJ\source\repos\7SegmentClock\bin\Debug\7SegmentClock.exe
+C:\Users\RJ\source\repos\7SegmentClock\bin\Debug\7SegmentClock.pdb
+C:\Users\RJ\source\repos\7SegmentClock\obj\Debug\7SegmentClock.csproj.AssemblyReference.cache
+C:\Users\RJ\source\repos\7SegmentClock\obj\Debug\_7SegmentClock.Properties.Resources.resources
+C:\Users\RJ\source\repos\7SegmentClock\obj\Debug\7SegmentClock.csproj.GenerateResource.cache
+C:\Users\RJ\source\repos\7SegmentClock\obj\Debug\7SegmentClock.csproj.CoreCompileInputs.cache
+C:\Users\RJ\source\repos\7SegmentClock\obj\Debug\7SegmentClock.exe
+C:\Users\RJ\source\repos\7SegmentClock\obj\Debug\7SegmentClock.pdb
+C:\Users\RJ\source\repos\7SegmentClock\obj\Debug\_7SegmentClock.SevenSegmentClock.resources
