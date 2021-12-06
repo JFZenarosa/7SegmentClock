@@ -12,6 +12,8 @@ namespace _7SegmentClock
 {
     public partial class SevenSegmentClock : Form
     {
+        System.Media.SoundPlayer BGMmusic = new System.Media.SoundPlayer();
+
         int sec;
         int sec2;
         int min;
@@ -28,6 +30,7 @@ namespace _7SegmentClock
 
         public SevenSegmentClock()
         {
+            BGMmusic.SoundLocation = "CanonD.wav";
             InitializeComponent();
         }
 
@@ -53,6 +56,7 @@ namespace _7SegmentClock
                 btnBotSecRight.PerformClick();
                 btnBotSec.PerformClick();
                 btnMidSec.BackColor = System.Drawing.Color.Transparent;
+
             }
             else if (sec == 1)
             {
@@ -516,8 +520,17 @@ namespace _7SegmentClock
             }
 
             lblTimeConvention.Text = DateTime.Now.ToString("tt");
-
+            lblDateTime.Text = DateTime.Now.ToString();
         }
 
+        private void SevenSegmentClock_Load(object sender, EventArgs e)
+        {
+            BGMmusic.Play();
+        }
+
+        private void musicStop(object sender, FormClosedEventArgs e)
+        {
+            BGMmusic.Stop();
+        }
     }
 }
