@@ -81,13 +81,18 @@ namespace _7SegmentClock
             this.lblTimeConvention = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblDateTime = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnTopSec
             // 
             this.btnTopSec.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopSec.FlatAppearance.BorderSize = 0;
             this.btnTopSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopSec.Location = new System.Drawing.Point(739, 211);
+            this.btnTopSec.Location = new System.Drawing.Point(747, 91);
             this.btnTopSec.Name = "btnTopSec";
             this.btnTopSec.Size = new System.Drawing.Size(63, 21);
             this.btnTopSec.TabIndex = 0;
@@ -98,8 +103,9 @@ namespace _7SegmentClock
             // btnTopSecRight
             // 
             this.btnTopSecRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopSecRight.FlatAppearance.BorderSize = 0;
             this.btnTopSecRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopSecRight.Location = new System.Drawing.Point(798, 229);
+            this.btnTopSecRight.Location = new System.Drawing.Point(806, 109);
             this.btnTopSecRight.Name = "btnTopSecRight";
             this.btnTopSecRight.Size = new System.Drawing.Size(22, 62);
             this.btnTopSecRight.TabIndex = 1;
@@ -110,8 +116,9 @@ namespace _7SegmentClock
             // btnTopSecLeft
             // 
             this.btnTopSecLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopSecLeft.FlatAppearance.BorderSize = 0;
             this.btnTopSecLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopSecLeft.Location = new System.Drawing.Point(721, 229);
+            this.btnTopSecLeft.Location = new System.Drawing.Point(729, 109);
             this.btnTopSecLeft.Name = "btnTopSecLeft";
             this.btnTopSecLeft.Size = new System.Drawing.Size(22, 62);
             this.btnTopSecLeft.TabIndex = 2;
@@ -122,8 +129,9 @@ namespace _7SegmentClock
             // btnMidSec
             // 
             this.btnMidSec.BackColor = System.Drawing.Color.Transparent;
+            this.btnMidSec.FlatAppearance.BorderSize = 0;
             this.btnMidSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMidSec.Location = new System.Drawing.Point(739, 287);
+            this.btnMidSec.Location = new System.Drawing.Point(747, 167);
             this.btnMidSec.Name = "btnMidSec";
             this.btnMidSec.Size = new System.Drawing.Size(63, 21);
             this.btnMidSec.TabIndex = 3;
@@ -134,8 +142,9 @@ namespace _7SegmentClock
             // btnBotSec
             // 
             this.btnBotSec.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotSec.FlatAppearance.BorderSize = 0;
             this.btnBotSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotSec.Location = new System.Drawing.Point(739, 366);
+            this.btnBotSec.Location = new System.Drawing.Point(747, 246);
             this.btnBotSec.Name = "btnBotSec";
             this.btnBotSec.Size = new System.Drawing.Size(63, 21);
             this.btnBotSec.TabIndex = 6;
@@ -146,8 +155,9 @@ namespace _7SegmentClock
             // btnBotSecLeft
             // 
             this.btnBotSecLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotSecLeft.FlatAppearance.BorderSize = 0;
             this.btnBotSecLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotSecLeft.Location = new System.Drawing.Point(721, 306);
+            this.btnBotSecLeft.Location = new System.Drawing.Point(729, 186);
             this.btnBotSecLeft.Name = "btnBotSecLeft";
             this.btnBotSecLeft.Size = new System.Drawing.Size(22, 62);
             this.btnBotSecLeft.TabIndex = 5;
@@ -158,8 +168,9 @@ namespace _7SegmentClock
             // btnBotSecRight
             // 
             this.btnBotSecRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotSecRight.FlatAppearance.BorderSize = 0;
             this.btnBotSecRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotSecRight.Location = new System.Drawing.Point(798, 306);
+            this.btnBotSecRight.Location = new System.Drawing.Point(806, 186);
             this.btnBotSecRight.Name = "btnBotSecRight";
             this.btnBotSecRight.Size = new System.Drawing.Size(22, 62);
             this.btnBotSecRight.TabIndex = 4;
@@ -170,8 +181,9 @@ namespace _7SegmentClock
             // btnBotSec2
             // 
             this.btnBotSec2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotSec2.FlatAppearance.BorderSize = 0;
             this.btnBotSec2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotSec2.Location = new System.Drawing.Point(634, 363);
+            this.btnBotSec2.Location = new System.Drawing.Point(642, 243);
             this.btnBotSec2.Name = "btnBotSec2";
             this.btnBotSec2.Size = new System.Drawing.Size(63, 21);
             this.btnBotSec2.TabIndex = 13;
@@ -182,8 +194,9 @@ namespace _7SegmentClock
             // btnBotSecLeft2
             // 
             this.btnBotSecLeft2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotSecLeft2.FlatAppearance.BorderSize = 0;
             this.btnBotSecLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotSecLeft2.Location = new System.Drawing.Point(616, 306);
+            this.btnBotSecLeft2.Location = new System.Drawing.Point(624, 186);
             this.btnBotSecLeft2.Name = "btnBotSecLeft2";
             this.btnBotSecLeft2.Size = new System.Drawing.Size(22, 62);
             this.btnBotSecLeft2.TabIndex = 12;
@@ -194,8 +207,9 @@ namespace _7SegmentClock
             // btnBotSecRight2
             // 
             this.btnBotSecRight2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotSecRight2.FlatAppearance.BorderSize = 0;
             this.btnBotSecRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotSecRight2.Location = new System.Drawing.Point(693, 306);
+            this.btnBotSecRight2.Location = new System.Drawing.Point(701, 186);
             this.btnBotSecRight2.Name = "btnBotSecRight2";
             this.btnBotSecRight2.Size = new System.Drawing.Size(22, 62);
             this.btnBotSecRight2.TabIndex = 11;
@@ -206,8 +220,9 @@ namespace _7SegmentClock
             // btnMidSec2
             // 
             this.btnMidSec2.BackColor = System.Drawing.Color.Transparent;
+            this.btnMidSec2.FlatAppearance.BorderSize = 0;
             this.btnMidSec2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMidSec2.Location = new System.Drawing.Point(634, 286);
+            this.btnMidSec2.Location = new System.Drawing.Point(642, 166);
             this.btnMidSec2.Name = "btnMidSec2";
             this.btnMidSec2.Size = new System.Drawing.Size(63, 21);
             this.btnMidSec2.TabIndex = 10;
@@ -218,8 +233,9 @@ namespace _7SegmentClock
             // btnTopSecLeft2
             // 
             this.btnTopSecLeft2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopSecLeft2.FlatAppearance.BorderSize = 0;
             this.btnTopSecLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopSecLeft2.Location = new System.Drawing.Point(616, 229);
+            this.btnTopSecLeft2.Location = new System.Drawing.Point(624, 109);
             this.btnTopSecLeft2.Name = "btnTopSecLeft2";
             this.btnTopSecLeft2.Size = new System.Drawing.Size(22, 62);
             this.btnTopSecLeft2.TabIndex = 9;
@@ -230,8 +246,9 @@ namespace _7SegmentClock
             // btnTopSecRight2
             // 
             this.btnTopSecRight2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopSecRight2.FlatAppearance.BorderSize = 0;
             this.btnTopSecRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopSecRight2.Location = new System.Drawing.Point(693, 229);
+            this.btnTopSecRight2.Location = new System.Drawing.Point(701, 109);
             this.btnTopSecRight2.Name = "btnTopSecRight2";
             this.btnTopSecRight2.Size = new System.Drawing.Size(22, 62);
             this.btnTopSecRight2.TabIndex = 8;
@@ -242,8 +259,9 @@ namespace _7SegmentClock
             // btnTopSec2
             // 
             this.btnTopSec2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopSec2.FlatAppearance.BorderSize = 0;
             this.btnTopSec2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopSec2.Location = new System.Drawing.Point(634, 211);
+            this.btnTopSec2.Location = new System.Drawing.Point(642, 91);
             this.btnTopSec2.Name = "btnTopSec2";
             this.btnTopSec2.Size = new System.Drawing.Size(63, 21);
             this.btnTopSec2.TabIndex = 7;
@@ -254,7 +272,8 @@ namespace _7SegmentClock
             // button8
             // 
             this.button8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.Location = new System.Drawing.Point(557, 318);
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.Location = new System.Drawing.Point(565, 198);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(39, 39);
             this.button8.TabIndex = 14;
@@ -264,7 +283,8 @@ namespace _7SegmentClock
             // button9
             // 
             this.button9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button9.Location = new System.Drawing.Point(557, 241);
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.Location = new System.Drawing.Point(565, 121);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(39, 39);
             this.button9.TabIndex = 15;
@@ -274,7 +294,8 @@ namespace _7SegmentClock
             // button10
             // 
             this.button10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button10.Location = new System.Drawing.Point(270, 241);
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.Location = new System.Drawing.Point(278, 121);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(39, 39);
             this.button10.TabIndex = 31;
@@ -284,7 +305,8 @@ namespace _7SegmentClock
             // button11
             // 
             this.button11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button11.Location = new System.Drawing.Point(270, 318);
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.Location = new System.Drawing.Point(278, 198);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(39, 39);
             this.button11.TabIndex = 30;
@@ -294,8 +316,9 @@ namespace _7SegmentClock
             // btnBotMin2
             // 
             this.btnBotMin2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotMin2.FlatAppearance.BorderSize = 0;
             this.btnBotMin2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotMin2.Location = new System.Drawing.Point(347, 363);
+            this.btnBotMin2.Location = new System.Drawing.Point(355, 243);
             this.btnBotMin2.Name = "btnBotMin2";
             this.btnBotMin2.Size = new System.Drawing.Size(63, 21);
             this.btnBotMin2.TabIndex = 29;
@@ -306,8 +329,9 @@ namespace _7SegmentClock
             // btnBotMinLeft2
             // 
             this.btnBotMinLeft2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotMinLeft2.FlatAppearance.BorderSize = 0;
             this.btnBotMinLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotMinLeft2.Location = new System.Drawing.Point(329, 306);
+            this.btnBotMinLeft2.Location = new System.Drawing.Point(337, 186);
             this.btnBotMinLeft2.Name = "btnBotMinLeft2";
             this.btnBotMinLeft2.Size = new System.Drawing.Size(22, 62);
             this.btnBotMinLeft2.TabIndex = 28;
@@ -318,8 +342,9 @@ namespace _7SegmentClock
             // btnBotMinRight2
             // 
             this.btnBotMinRight2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotMinRight2.FlatAppearance.BorderSize = 0;
             this.btnBotMinRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotMinRight2.Location = new System.Drawing.Point(406, 306);
+            this.btnBotMinRight2.Location = new System.Drawing.Point(414, 186);
             this.btnBotMinRight2.Name = "btnBotMinRight2";
             this.btnBotMinRight2.Size = new System.Drawing.Size(22, 62);
             this.btnBotMinRight2.TabIndex = 27;
@@ -330,8 +355,9 @@ namespace _7SegmentClock
             // btnMidMin2
             // 
             this.btnMidMin2.BackColor = System.Drawing.Color.Transparent;
+            this.btnMidMin2.FlatAppearance.BorderSize = 0;
             this.btnMidMin2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMidMin2.Location = new System.Drawing.Point(347, 287);
+            this.btnMidMin2.Location = new System.Drawing.Point(355, 167);
             this.btnMidMin2.Name = "btnMidMin2";
             this.btnMidMin2.Size = new System.Drawing.Size(63, 21);
             this.btnMidMin2.TabIndex = 26;
@@ -342,8 +368,9 @@ namespace _7SegmentClock
             // btnTopMinLeft2
             // 
             this.btnTopMinLeft2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopMinLeft2.FlatAppearance.BorderSize = 0;
             this.btnTopMinLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopMinLeft2.Location = new System.Drawing.Point(329, 229);
+            this.btnTopMinLeft2.Location = new System.Drawing.Point(337, 109);
             this.btnTopMinLeft2.Name = "btnTopMinLeft2";
             this.btnTopMinLeft2.Size = new System.Drawing.Size(22, 62);
             this.btnTopMinLeft2.TabIndex = 25;
@@ -354,8 +381,9 @@ namespace _7SegmentClock
             // btnTopMinRight2
             // 
             this.btnTopMinRight2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopMinRight2.FlatAppearance.BorderSize = 0;
             this.btnTopMinRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopMinRight2.Location = new System.Drawing.Point(406, 229);
+            this.btnTopMinRight2.Location = new System.Drawing.Point(414, 109);
             this.btnTopMinRight2.Name = "btnTopMinRight2";
             this.btnTopMinRight2.Size = new System.Drawing.Size(22, 62);
             this.btnTopMinRight2.TabIndex = 24;
@@ -366,8 +394,9 @@ namespace _7SegmentClock
             // btnTopMin2
             // 
             this.btnTopMin2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopMin2.FlatAppearance.BorderSize = 0;
             this.btnTopMin2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopMin2.Location = new System.Drawing.Point(347, 211);
+            this.btnTopMin2.Location = new System.Drawing.Point(355, 91);
             this.btnTopMin2.Name = "btnTopMin2";
             this.btnTopMin2.Size = new System.Drawing.Size(63, 21);
             this.btnTopMin2.TabIndex = 23;
@@ -378,8 +407,9 @@ namespace _7SegmentClock
             // btnBotMin
             // 
             this.btnBotMin.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotMin.FlatAppearance.BorderSize = 0;
             this.btnBotMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotMin.Location = new System.Drawing.Point(452, 363);
+            this.btnBotMin.Location = new System.Drawing.Point(460, 243);
             this.btnBotMin.Name = "btnBotMin";
             this.btnBotMin.Size = new System.Drawing.Size(63, 21);
             this.btnBotMin.TabIndex = 22;
@@ -390,8 +420,9 @@ namespace _7SegmentClock
             // btnBotMinLeft
             // 
             this.btnBotMinLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotMinLeft.FlatAppearance.BorderSize = 0;
             this.btnBotMinLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotMinLeft.Location = new System.Drawing.Point(434, 306);
+            this.btnBotMinLeft.Location = new System.Drawing.Point(442, 186);
             this.btnBotMinLeft.Name = "btnBotMinLeft";
             this.btnBotMinLeft.Size = new System.Drawing.Size(22, 62);
             this.btnBotMinLeft.TabIndex = 21;
@@ -402,8 +433,9 @@ namespace _7SegmentClock
             // btnBotMinRight
             // 
             this.btnBotMinRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotMinRight.FlatAppearance.BorderSize = 0;
             this.btnBotMinRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotMinRight.Location = new System.Drawing.Point(511, 306);
+            this.btnBotMinRight.Location = new System.Drawing.Point(519, 186);
             this.btnBotMinRight.Name = "btnBotMinRight";
             this.btnBotMinRight.Size = new System.Drawing.Size(22, 62);
             this.btnBotMinRight.TabIndex = 20;
@@ -414,8 +446,9 @@ namespace _7SegmentClock
             // btnMidMin
             // 
             this.btnMidMin.BackColor = System.Drawing.Color.Transparent;
+            this.btnMidMin.FlatAppearance.BorderSize = 0;
             this.btnMidMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMidMin.Location = new System.Drawing.Point(452, 287);
+            this.btnMidMin.Location = new System.Drawing.Point(460, 167);
             this.btnMidMin.Name = "btnMidMin";
             this.btnMidMin.Size = new System.Drawing.Size(63, 21);
             this.btnMidMin.TabIndex = 19;
@@ -426,8 +459,9 @@ namespace _7SegmentClock
             // btnTopMinLeft
             // 
             this.btnTopMinLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopMinLeft.FlatAppearance.BorderSize = 0;
             this.btnTopMinLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopMinLeft.Location = new System.Drawing.Point(434, 229);
+            this.btnTopMinLeft.Location = new System.Drawing.Point(442, 109);
             this.btnTopMinLeft.Name = "btnTopMinLeft";
             this.btnTopMinLeft.Size = new System.Drawing.Size(22, 62);
             this.btnTopMinLeft.TabIndex = 18;
@@ -438,8 +472,9 @@ namespace _7SegmentClock
             // btnTopMinRight
             // 
             this.btnTopMinRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopMinRight.FlatAppearance.BorderSize = 0;
             this.btnTopMinRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopMinRight.Location = new System.Drawing.Point(511, 229);
+            this.btnTopMinRight.Location = new System.Drawing.Point(519, 109);
             this.btnTopMinRight.Name = "btnTopMinRight";
             this.btnTopMinRight.Size = new System.Drawing.Size(22, 62);
             this.btnTopMinRight.TabIndex = 17;
@@ -450,8 +485,9 @@ namespace _7SegmentClock
             // btnTopMin
             // 
             this.btnTopMin.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopMin.FlatAppearance.BorderSize = 0;
             this.btnTopMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopMin.Location = new System.Drawing.Point(452, 211);
+            this.btnTopMin.Location = new System.Drawing.Point(460, 91);
             this.btnTopMin.Name = "btnTopMin";
             this.btnTopMin.Size = new System.Drawing.Size(63, 21);
             this.btnTopMin.TabIndex = 16;
@@ -462,8 +498,9 @@ namespace _7SegmentClock
             // btnBotHr2
             // 
             this.btnBotHr2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotHr2.FlatAppearance.BorderSize = 0;
             this.btnBotHr2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotHr2.Location = new System.Drawing.Point(62, 363);
+            this.btnBotHr2.Location = new System.Drawing.Point(70, 243);
             this.btnBotHr2.Name = "btnBotHr2";
             this.btnBotHr2.Size = new System.Drawing.Size(63, 21);
             this.btnBotHr2.TabIndex = 45;
@@ -474,8 +511,9 @@ namespace _7SegmentClock
             // btnBotHrLeft2
             // 
             this.btnBotHrLeft2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotHrLeft2.FlatAppearance.BorderSize = 0;
             this.btnBotHrLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotHrLeft2.Location = new System.Drawing.Point(44, 306);
+            this.btnBotHrLeft2.Location = new System.Drawing.Point(52, 186);
             this.btnBotHrLeft2.Name = "btnBotHrLeft2";
             this.btnBotHrLeft2.Size = new System.Drawing.Size(22, 62);
             this.btnBotHrLeft2.TabIndex = 44;
@@ -486,8 +524,9 @@ namespace _7SegmentClock
             // btnBotHrRight2
             // 
             this.btnBotHrRight2.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotHrRight2.FlatAppearance.BorderSize = 0;
             this.btnBotHrRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotHrRight2.Location = new System.Drawing.Point(121, 306);
+            this.btnBotHrRight2.Location = new System.Drawing.Point(129, 186);
             this.btnBotHrRight2.Name = "btnBotHrRight2";
             this.btnBotHrRight2.Size = new System.Drawing.Size(22, 62);
             this.btnBotHrRight2.TabIndex = 43;
@@ -498,8 +537,9 @@ namespace _7SegmentClock
             // btnMidHr2
             // 
             this.btnMidHr2.BackColor = System.Drawing.Color.Transparent;
+            this.btnMidHr2.FlatAppearance.BorderSize = 0;
             this.btnMidHr2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMidHr2.Location = new System.Drawing.Point(62, 287);
+            this.btnMidHr2.Location = new System.Drawing.Point(70, 167);
             this.btnMidHr2.Name = "btnMidHr2";
             this.btnMidHr2.Size = new System.Drawing.Size(63, 21);
             this.btnMidHr2.TabIndex = 42;
@@ -510,8 +550,9 @@ namespace _7SegmentClock
             // btnTopHrLeft2
             // 
             this.btnTopHrLeft2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopHrLeft2.FlatAppearance.BorderSize = 0;
             this.btnTopHrLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopHrLeft2.Location = new System.Drawing.Point(44, 229);
+            this.btnTopHrLeft2.Location = new System.Drawing.Point(52, 109);
             this.btnTopHrLeft2.Name = "btnTopHrLeft2";
             this.btnTopHrLeft2.Size = new System.Drawing.Size(22, 62);
             this.btnTopHrLeft2.TabIndex = 41;
@@ -522,8 +563,9 @@ namespace _7SegmentClock
             // btnTopHrRight2
             // 
             this.btnTopHrRight2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopHrRight2.FlatAppearance.BorderSize = 0;
             this.btnTopHrRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopHrRight2.Location = new System.Drawing.Point(121, 229);
+            this.btnTopHrRight2.Location = new System.Drawing.Point(129, 109);
             this.btnTopHrRight2.Name = "btnTopHrRight2";
             this.btnTopHrRight2.Size = new System.Drawing.Size(22, 62);
             this.btnTopHrRight2.TabIndex = 40;
@@ -534,8 +576,9 @@ namespace _7SegmentClock
             // btnTopHr2
             // 
             this.btnTopHr2.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopHr2.FlatAppearance.BorderSize = 0;
             this.btnTopHr2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopHr2.Location = new System.Drawing.Point(62, 211);
+            this.btnTopHr2.Location = new System.Drawing.Point(70, 91);
             this.btnTopHr2.Name = "btnTopHr2";
             this.btnTopHr2.Size = new System.Drawing.Size(63, 21);
             this.btnTopHr2.TabIndex = 39;
@@ -546,8 +589,9 @@ namespace _7SegmentClock
             // btnBotHr
             // 
             this.btnBotHr.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotHr.FlatAppearance.BorderSize = 0;
             this.btnBotHr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotHr.Location = new System.Drawing.Point(167, 363);
+            this.btnBotHr.Location = new System.Drawing.Point(175, 243);
             this.btnBotHr.Name = "btnBotHr";
             this.btnBotHr.Size = new System.Drawing.Size(63, 21);
             this.btnBotHr.TabIndex = 38;
@@ -558,8 +602,9 @@ namespace _7SegmentClock
             // btnBotHrLeft
             // 
             this.btnBotHrLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotHrLeft.FlatAppearance.BorderSize = 0;
             this.btnBotHrLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotHrLeft.Location = new System.Drawing.Point(149, 306);
+            this.btnBotHrLeft.Location = new System.Drawing.Point(157, 186);
             this.btnBotHrLeft.Name = "btnBotHrLeft";
             this.btnBotHrLeft.Size = new System.Drawing.Size(22, 62);
             this.btnBotHrLeft.TabIndex = 37;
@@ -570,8 +615,9 @@ namespace _7SegmentClock
             // btnBotHrRight
             // 
             this.btnBotHrRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnBotHrRight.FlatAppearance.BorderSize = 0;
             this.btnBotHrRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBotHrRight.Location = new System.Drawing.Point(226, 306);
+            this.btnBotHrRight.Location = new System.Drawing.Point(234, 186);
             this.btnBotHrRight.Name = "btnBotHrRight";
             this.btnBotHrRight.Size = new System.Drawing.Size(22, 62);
             this.btnBotHrRight.TabIndex = 36;
@@ -582,8 +628,9 @@ namespace _7SegmentClock
             // btnMidHr
             // 
             this.btnMidHr.BackColor = System.Drawing.Color.Transparent;
+            this.btnMidHr.FlatAppearance.BorderSize = 0;
             this.btnMidHr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMidHr.Location = new System.Drawing.Point(167, 287);
+            this.btnMidHr.Location = new System.Drawing.Point(175, 167);
             this.btnMidHr.Name = "btnMidHr";
             this.btnMidHr.Size = new System.Drawing.Size(63, 21);
             this.btnMidHr.TabIndex = 35;
@@ -594,8 +641,9 @@ namespace _7SegmentClock
             // btnTopHrLeft
             // 
             this.btnTopHrLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopHrLeft.FlatAppearance.BorderSize = 0;
             this.btnTopHrLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopHrLeft.Location = new System.Drawing.Point(149, 229);
+            this.btnTopHrLeft.Location = new System.Drawing.Point(157, 109);
             this.btnTopHrLeft.Name = "btnTopHrLeft";
             this.btnTopHrLeft.Size = new System.Drawing.Size(22, 62);
             this.btnTopHrLeft.TabIndex = 34;
@@ -606,8 +654,9 @@ namespace _7SegmentClock
             // btnTopHrRight
             // 
             this.btnTopHrRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopHrRight.FlatAppearance.BorderSize = 0;
             this.btnTopHrRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopHrRight.Location = new System.Drawing.Point(226, 229);
+            this.btnTopHrRight.Location = new System.Drawing.Point(234, 109);
             this.btnTopHrRight.Name = "btnTopHrRight";
             this.btnTopHrRight.Size = new System.Drawing.Size(22, 62);
             this.btnTopHrRight.TabIndex = 33;
@@ -618,8 +667,9 @@ namespace _7SegmentClock
             // btnTopHr
             // 
             this.btnTopHr.BackColor = System.Drawing.Color.Transparent;
+            this.btnTopHr.FlatAppearance.BorderSize = 0;
             this.btnTopHr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopHr.Location = new System.Drawing.Point(167, 211);
+            this.btnTopHr.Location = new System.Drawing.Point(175, 91);
             this.btnTopHr.Name = "btnTopHr";
             this.btnTopHr.Size = new System.Drawing.Size(63, 21);
             this.btnTopHr.TabIndex = 32;
@@ -639,7 +689,7 @@ namespace _7SegmentClock
             this.lblTimeConvention.BackColor = System.Drawing.Color.Transparent;
             this.lblTimeConvention.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTimeConvention.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTimeConvention.Location = new System.Drawing.Point(837, 306);
+            this.lblTimeConvention.Location = new System.Drawing.Point(850, 106);
             this.lblTimeConvention.Name = "lblTimeConvention";
             this.lblTimeConvention.Size = new System.Drawing.Size(87, 77);
             this.lblTimeConvention.TabIndex = 46;
@@ -649,11 +699,11 @@ namespace _7SegmentClock
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTitle.Location = new System.Drawing.Point(211, 17);
+            this.lblTitle.Location = new System.Drawing.Point(318, 20);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(573, 77);
+            this.lblTitle.Size = new System.Drawing.Size(331, 45);
             this.lblTitle.TabIndex = 47;
             this.lblTitle.Text = "7 Segment Clock";
             // 
@@ -663,11 +713,33 @@ namespace _7SegmentClock
             this.lblDateTime.BackColor = System.Drawing.Color.Transparent;
             this.lblDateTime.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateTime.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblDateTime.Location = new System.Drawing.Point(305, 117);
+            this.lblDateTime.Location = new System.Drawing.Point(293, 318);
             this.lblDateTime.Name = "lblDateTime";
             this.lblDateTime.Size = new System.Drawing.Size(172, 39);
             this.lblDateTime.TabIndex = 48;
             this.lblDateTime.Text = "DateTime";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(793, 273);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(195, 191);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 49;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-2, 273);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(195, 191);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 50;
+            this.pictureBox2.TabStop = false;
             // 
             // SevenSegmentClock
             // 
@@ -676,6 +748,8 @@ namespace _7SegmentClock
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 465);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblDateTime);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.lblTimeConvention);
@@ -729,6 +803,8 @@ namespace _7SegmentClock
             this.Text = "7 Segment Clock Timer";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.musicStop);
             this.Load += new System.EventHandler(this.SevenSegmentClock_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -786,6 +862,8 @@ namespace _7SegmentClock
         private System.Windows.Forms.Label lblTimeConvention;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblDateTime;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
