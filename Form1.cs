@@ -31,7 +31,7 @@ namespace _7SegmentClock
         public SevenSegmentClock()
         {
             BGMmusic.SoundLocation = "CanonD.wav";
-            InitializeComponent();
+            InitializeComponent(); //hello RJ pa fork
         }
 
         private void clockTic(object sender, EventArgs e)
